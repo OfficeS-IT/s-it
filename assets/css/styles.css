@@ -1,0 +1,373 @@
+
+body {
+    background-color: #F7F1E7; 
+    box-sizing: border-box;
+}
+
+hr {
+    border: #484848;
+}
+
+#top {
+    width: 100%;
+    height: 30px;
+    background: #376092;
+    /* background: rgb(28,28,28); /* Old browsers */
+    /* background: -moz-linear-gradient(top,  rgba(28,28,28,1) 0%, rgba(55,96,146,1) 100%); */ /* FF3.6+ */
+    /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(28,28,28,1)), color-stop(100%,rgba(55,96,146,1))); /* Chrome,Safari4+ */ */
+    /* background: -webkit-linear-gradient(top,  rgba(28,28,28,1) 0%,rgba(55, 96, 146, 0.733) 100%); */ /* Chrome10+,Safari5.1+ */
+    /* background: -o-linear-gradient(top,  rgba(28,28,28,1) 0%,rgba(55,96,146,1) 100%); */ /* Opera 11.10+ */
+    /* background: -ms-linear-gradient(top,  rgba(28,28,28,1) 0%,rgba(55,96,146,1) 100%); */ /* IE10+ */
+   /*  background: linear-gradient(to bottom,  rgba(28,28,28,1) 0%,rgba(55,96,146,1) 100%); */ /* W3C */
+    /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c1c1c', endColorstr='#376092',GradientType=0 ); */ /* IE6-9 */ */
+}
+
+.navbar-brand {
+    max-width: 150px;
+}
+
+
+#active-link {
+	color: #000000;
+	border-bottom: 2px solid #000000;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.slider-bg {
+    margin-top: -50px;
+    padding-top: 130px;
+    padding-bottom: 50px;
+    min-width: 100%;
+    border-bottom: 1px solid #9F9090;
+    background: url('../img/square.png') repeat;
+}
+
+/*------------------------------------------------------about----------------------------------- */
+.about-items h1 {
+    color: #376092;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+}
+
+/*
+	Triangle with Shadow
+*/
+.triangle-with-shadow2 {
+    /*background: url("../img/triangle.png");*/
+	margin-top: -6px;
+	position: absolute;
+	z-index: 700;
+}
+
+/* CUSTOMIZE THE CAROUSEL*/
+/*-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    height: 280px;
+    margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 280px;
+    background-color: #376092;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 250px;
+}
+
+#message {
+    color: #B7042C;
+    font-family: 'Arial', sans-serif;
+    font-size: 40px;
+    position: relative;
+    top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-shadow: 0.1em 0.1em 15px #333;
+}
+
+
+.container-overlay {
+    margin-top: -80px;
+    margin-bottom: -50px;
+    padding: 115px;
+    background: #F7F1E7;
+}
+
+.container-overlay2 {
+    color: #000000;
+    padding-top: 20px;
+    min-height: 259px;
+    -webkit-box-shadow: 0px 0px 20px -5px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 20px -5px rgba(0,0,0,1);
+    box-shadow: 0px 0px 20px -5px rgba(0,0,0,1);
+    background: #F7F1E7;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.container-overlay2 .row {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.beautify {
+    margin: 60px -15px 0 -15px;
+    background-color: #376092;
+    height: 30px;
+    /*width: 960px;*/
+}
+
+.nav>li>a.dropdown-toggle {
+    padding-left: 0px;
+}
+
+
+/* -----------------------------------TECHNOLOGIES WE MOSTLY USE--------------------------------------- */
+/* .technologies-item h1 {
+    padding-top: 1.2rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+  } */
+  
+  .technologies-item_icons {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+  .technologies-item_icon {
+      color: #B7042C;
+      display: inline-flex;
+      align-items: center;
+      margin: 0 auto;
+      font-size: 5rem;
+      padding-right: 2rem;
+      padding-bottom: 0.9rem;
+  }
+
+  .technologies-item_icon i {
+      text-align: center;
+  }
+
+  .technologies-item_icons h1,
+  .technologies-item_icons h2 {
+    color: #376092;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    text-align: center;
+  }
+
+  .icon-info {
+      margin-bottom: 20px;
+  }
+
+  p {
+      font-size: 1.5rem;
+      margin: 0;
+  }
+
+  /* ----------------------------------- CAREER --------------------------------------------------- */
+  .career_item {
+      width: 80%;
+      margin: 0 auto;
+  }
+
+  .career_item h1 {
+    color: #376092;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+  }
+
+ /* ------------------------------------CONTACT---------------------------------------------------- */
+
+ .contact-info h1{
+    color: #376092;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+ }
+
+ a {
+     text-decoration: none;
+     color: black;
+ }
+
+ a:hover {
+    cursor: pointer;
+    color: #376092;
+ }
+
+ .info {
+    color: #C61C1B;
+ }
+
+ #map{
+	width:100%;
+	height:350px;
+	border:2px solid #9A9696;
+	box-sizing:border-box;
+ }
+
+/* RESPONSIVE CSS*/
+/*-------------------------------------------------- */
+
+@media (max-width: 992px){
+    .nav>li>a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .navbar {
+        color: green;
+        letter-spacing: 0.007em;
+        font-size: 13px;
+    }
+
+    .navbar-right {
+        padding-left: 0px;
+    }
+
+    .navbar > .container .navbar-brand {
+        margin-left: 25px;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+
+    .navbar > .container .navbar-brand {
+        margin-left: 10px;
+        margin-top: -22px;
+        margin-bottom: 22px;
+    }
+}
+
+/*@media (max-width: 1100px){*/
+    /*.navbar {*/
+        /*letter-spacing: 0.008em;*/
+        /*font-size: 14px;*/
+    /*}*/
+
+    /*.navbar-right {*/
+        /*padding-left: 0px;*/
+    /*}*/
+/*}*/
+
+.middle {
+    margin: 0 auto;
+}
+
+@media (max-width: 995px){
+    #message {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 540) and (min-width: 280px) {
+    .technologies-item_icons h1 {
+        font-size: 1rem;
+    }
+
+    .technologies-item_icon {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 420px){
+    #map {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+.intelligent {
+    color: #376092;
+}
+
+
+.gmbh {
+    margin-top: 40px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.gmbhlogo {
+    margin-left: -10px;
+    margin-top: -40px;
+}
+
+.half-logo {
+    margin-top: -13px;
+}
+
+.gmbh-holder {
+    margin-top: 50px;
+}
+
+.container-overlay2 .row {
+    padding-top: 20px;
+}
+
+#fb_link {
+	position: absolute:
+	bottom: 50px;
+	left: 200px;
+}
+
+
+.socialize {
+    /* padding-left: 50px; */
+    font-size: 2rem;
+}
+
+.socialize a {
+    text-decoration: none;
+    color: #C61C1B;
+}
+
+.socialize a:hover,
+.socialize a:active {
+    color: #376092;
+}
+
+/**
+Revision 1.0.1
+*/
+.pointer {
+    cursor: pointer;
+}
+.tooltip-inner {
+    white-space:pre-wrap;
+}

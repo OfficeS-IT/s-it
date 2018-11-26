@@ -1,0 +1,72 @@
+.navbar {
+    font-family: 'Arial Bold', sans-serif;
+    letter-spacing: 0.0010em;
+    font-size: 16px;
+    /*height: 115px;*/
+    margin-bottom: 0px;
+}
+
+.navbar-default {
+    background-color: #F7F1E7;
+    -webkit-box-shadow: 0px -4px 40px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px -4px 40px 0px rgba(0,0,0,1);
+    box-shadow: 0px -4px 40px 0px rgba(0,0,0,1);
+    z-index: 100;
+    border-color: #F7F1E7;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #000000;
+}
+.navbar-default .navbar-nav > li > a:active{
+    text-decoration: underline;
+}
+
+.navbar-nav {
+    margin-top: -10px;
+    padding-left: 30px;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.container-nav {
+    padding-top: 35px;
+}
+
+#carousel-example-generic {
+    /*Round edges*/
+}
+
+.navbar-default .navbar-nav>.open>a:focus {
+    background-color: inherit;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    color: #F7F1E7;
+    background-color: #376092;
+}
+
+.navbar > .container .navbar-brand {
+    padding: 0px 0 0 0;
+    margin-left: 20px;
+    margin-top: -22px;
+    margin-bottom: 22px;
+}
+
+.carousel-indicators {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.carousel-inner {
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+}
+
+.carousel-indicators {
+    bottom: -5px;
+}
